@@ -1,0 +1,52 @@
+.banner{
+    background-image:url('../images/banner3.jpg');
+    height:650px;
+    width:100%;
+    background-size: cover;
+}
+.banner h1{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    margin:auto;
+    position:relative;
+    top:45%;
+    font-size:100px;
+    color:white;
+}
+.butn {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fbac29;
+    color:black;
+    padding :10px 20px;
+}
+.wid{
+    height:500px;
+}
+.navbar {
+    background-color: #0000007a;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff ! important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.wid{
+    height:500px;
+}
+.wid::-webkit-scrollbar{
+    width:15px;
+
+}
+.wid::-webkit-scrollbar-track{
+    box-shadow:inset 0 0 50px rgb(235, 181, 81);
+    border-radius:25px;
+}
+.wid::-webkit-scrollbar-thumb{
+    background-color:orange;
+    border-radius:10px;
+}
